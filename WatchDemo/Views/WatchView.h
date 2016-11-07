@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WatchView.h
 //  WatchDemo
 //
 //  Created by Lightech on 15-6-18.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface WatchView : UIView
 
+- (id)initWithFrame:(CGRect)frame andFont:(CGFloat)fontSize;
 
 @end
-

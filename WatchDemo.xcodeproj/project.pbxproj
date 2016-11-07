@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		101C3C021B662E50003A7431 /* FVGravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101C3C011B662E50003A7431 /* FVGravityView.m */; };
+		10682C8C1B3D4D5400EA5AF8 /* AddNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10682C8B1B3D4D5400EA5AF8 /* AddNotificationView.m */; };
 		10878A331B3296C0001B47A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A321B3296C0001B47A8 /* main.m */; };
 		10878A361B3296C0001B47A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A351B3296C0001B47A8 /* AppDelegate.m */; };
 		10878A391B3296C0001B47A8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A381B3296C0001B47A8 /* ViewController.m */; };
@@ -14,6 +16,14 @@
 		10878A3E1B3296C0001B47A8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10878A3D1B3296C0001B47A8 /* Images.xcassets */; };
 		10878A411B3296C0001B47A8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10878A3F1B3296C0001B47A8 /* LaunchScreen.xib */; };
 		10878A4D1B3296C0001B47A8 /* WatchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A4C1B3296C0001B47A8 /* WatchDemoTests.m */; };
+		10878A581B329816001B47A8 /* WatchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A571B329816001B47A8 /* WatchView.m */; };
+		10878A5C1B32A0BA001B47A8 /* SecondHandView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A5B1B32A0BA001B47A8 /* SecondHandView.m */; };
+		10878A5F1B32B358001B47A8 /* DialView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A5E1B32B358001B47A8 /* DialView.m */; };
+		10878A621B32B4D1001B47A8 /* DialElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A611B32B4D1001B47A8 /* DialElement.m */; };
+		10878A6A1B32BFD1001B47A8 /* TimeElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A651B32BFD1001B47A8 /* TimeElement.m */; };
+		10878A6B1B32BFD1001B47A8 /* TimeSourceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A671B32BFD1001B47A8 /* TimeSourceModel.m */; };
+		10878A6C1B32BFD1001B47A8 /* TimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A691B32BFD1001B47A8 /* TimeView.m */; };
+		10A166581B3A7E1E00434072 /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 10A166571B3A7E1E00434072 /* background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		101C3C001B662E50003A7431 /* FVGravityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGravityView.h; sourceTree = "<group>"; };
+		101C3C011B662E50003A7431 /* FVGravityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGravityView.m; sourceTree = "<group>"; };
+		10682C8A1B3D4D5400EA5AF8 /* AddNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNotificationView.h; path = Views/AddNotificationView.h; sourceTree = "<group>"; };
+		10682C8B1B3D4D5400EA5AF8 /* AddNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNotificationView.m; path = Views/AddNotificationView.m; sourceTree = "<group>"; };
 		10878A2D1B3296C0001B47A8 /* WatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10878A311B3296C0001B47A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10878A321B3296C0001B47A8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +54,21 @@
 		10878A461B3296C0001B47A8 /* WatchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10878A4B1B3296C0001B47A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10878A4C1B3296C0001B47A8 /* WatchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WatchDemoTests.m; sourceTree = "<group>"; };
+		10878A561B329816001B47A8 /* WatchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WatchView.h; path = Views/WatchView.h; sourceTree = "<group>"; };
+		10878A571B329816001B47A8 /* WatchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WatchView.m; path = Views/WatchView.m; sourceTree = "<group>"; };
+		10878A5A1B32A0BA001B47A8 /* SecondHandView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondHandView.h; path = Views/SecondHandView.h; sourceTree = "<group>"; };
+		10878A5B1B32A0BA001B47A8 /* SecondHandView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondHandView.m; path = Views/SecondHandView.m; sourceTree = "<group>"; };
+		10878A5D1B32B358001B47A8 /* DialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialView.h; path = Views/DialView.h; sourceTree = "<group>"; };
+		10878A5E1B32B358001B47A8 /* DialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialView.m; path = Views/DialView.m; sourceTree = "<group>"; };
+		10878A601B32B4D1001B47A8 /* DialElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DialElement.h; path = Views/DialElement.h; sourceTree = "<group>"; };
+		10878A611B32B4D1001B47A8 /* DialElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DialElement.m; path = Views/DialElement.m; sourceTree = "<group>"; };
+		10878A641B32BFD1001B47A8 /* TimeElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeElement.h; sourceTree = "<group>"; };
+		10878A651B32BFD1001B47A8 /* TimeElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeElement.m; sourceTree = "<group>"; };
+		10878A661B32BFD1001B47A8 /* TimeSourceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeSourceModel.h; sourceTree = "<group>"; };
+		10878A671B32BFD1001B47A8 /* TimeSourceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeSourceModel.m; sourceTree = "<group>"; };
+		10878A681B32BFD1001B47A8 /* TimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeView.h; sourceTree = "<group>"; };
+		10878A691B32BFD1001B47A8 /* TimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeView.m; sourceTree = "<group>"; };
+		10A166571B3A7E1E00434072 /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +110,13 @@
 		10878A2F1B3296C0001B47A8 /* WatchDemo */ = {
 			isa = PBXGroup;
 			children = (
-				10878A341B3296C0001B47A8 /* AppDelegate.h */,
-				10878A351B3296C0001B47A8 /* AppDelegate.m */,
 				10878A371B3296C0001B47A8 /* ViewController.h */,
 				10878A381B3296C0001B47A8 /* ViewController.m */,
-				10878A3A1B3296C0001B47A8 /* Main.storyboard */,
-				10878A3D1B3296C0001B47A8 /* Images.xcassets */,
-				10878A3F1B3296C0001B47A8 /* LaunchScreen.xib */,
+				101C3C001B662E50003A7431 /* FVGravityView.h */,
+				101C3C011B662E50003A7431 /* FVGravityView.m */,
+				10A166561B3A7E1E00434072 /* Images */,
+				10878A591B32981A001B47A8 /* WatchViews */,
+				10878A631B32BFD1001B47A8 /* TimeView */,
 				10878A301B3296C0001B47A8 /* Supporting Files */,
 			);
 			path = WatchDemo;
@@ -96,6 +125,11 @@
 		10878A301B3296C0001B47A8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				10878A341B3296C0001B47A8 /* AppDelegate.h */,
+				10878A351B3296C0001B47A8 /* AppDelegate.m */,
+				10878A3A1B3296C0001B47A8 /* Main.storyboard */,
+				10878A3D1B3296C0001B47A8 /* Images.xcassets */,
+				10878A3F1B3296C0001B47A8 /* LaunchScreen.xib */,
 				10878A311B3296C0001B47A8 /* Info.plist */,
 				10878A321B3296C0001B47A8 /* main.m */,
 			);
@@ -117,6 +151,44 @@
 				10878A4B1B3296C0001B47A8 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		10878A591B32981A001B47A8 /* WatchViews */ = {
+			isa = PBXGroup;
+			children = (
+				10878A561B329816001B47A8 /* WatchView.h */,
+				10878A571B329816001B47A8 /* WatchView.m */,
+				10878A5D1B32B358001B47A8 /* DialView.h */,
+				10878A5E1B32B358001B47A8 /* DialView.m */,
+				10878A601B32B4D1001B47A8 /* DialElement.h */,
+				10878A611B32B4D1001B47A8 /* DialElement.m */,
+				10878A5A1B32A0BA001B47A8 /* SecondHandView.h */,
+				10878A5B1B32A0BA001B47A8 /* SecondHandView.m */,
+				10682C8A1B3D4D5400EA5AF8 /* AddNotificationView.h */,
+				10682C8B1B3D4D5400EA5AF8 /* AddNotificationView.m */,
+			);
+			name = WatchViews;
+			sourceTree = "<group>";
+		};
+		10878A631B32BFD1001B47A8 /* TimeView */ = {
+			isa = PBXGroup;
+			children = (
+				10878A681B32BFD1001B47A8 /* TimeView.h */,
+				10878A691B32BFD1001B47A8 /* TimeView.m */,
+				10878A641B32BFD1001B47A8 /* TimeElement.h */,
+				10878A651B32BFD1001B47A8 /* TimeElement.m */,
+				10878A661B32BFD1001B47A8 /* TimeSourceModel.h */,
+				10878A671B32BFD1001B47A8 /* TimeSourceModel.m */,
+			);
+			path = TimeView;
+			sourceTree = "<group>";
+		};
+		10A166561B3A7E1E00434072 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				10A166571B3A7E1E00434072 /* background.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10878A3C1B3296C0001B47A8 /* Main.storyboard in Resources */,
+				10A166581B3A7E1E00434072 /* background.jpg in Resources */,
 				10878A411B3296C0001B47A8 /* LaunchScreen.xib in Resources */,
 				10878A3E1B3296C0001B47A8 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +292,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10878A6B1B32BFD1001B47A8 /* TimeSourceModel.m in Sources */,
+				10878A581B329816001B47A8 /* WatchView.m in Sources */,
+				10878A6A1B32BFD1001B47A8 /* TimeElement.m in Sources */,
 				10878A391B3296C0001B47A8 /* ViewController.m in Sources */,
+				10682C8C1B3D4D5400EA5AF8 /* AddNotificationView.m in Sources */,
 				10878A361B3296C0001B47A8 /* AppDelegate.m in Sources */,
+				10878A5F1B32B358001B47A8 /* DialView.m in Sources */,
+				10878A5C1B32A0BA001B47A8 /* SecondHandView.m in Sources */,
+				10878A6C1B32BFD1001B47A8 /* TimeView.m in Sources */,
+				10878A621B32B4D1001B47A8 /* DialElement.m in Sources */,
 				10878A331B3296C0001B47A8 /* main.m in Sources */,
+				101C3C021B662E50003A7431 /* FVGravityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +494,7 @@
 				10878A521B3296C0001B47A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10878A531B3296C0001B47A8 /* Build configuration list for PBXNativeTarget "WatchDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +503,7 @@
 				10878A551B3296C0001B47A8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
