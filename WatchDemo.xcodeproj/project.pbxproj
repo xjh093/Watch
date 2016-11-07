@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		101C3C021B662E50003A7431 /* FVGravityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 101C3C011B662E50003A7431 /* FVGravityView.m */; };
 		10682C8C1B3D4D5400EA5AF8 /* AddNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 10682C8B1B3D4D5400EA5AF8 /* AddNotificationView.m */; };
 		10878A331B3296C0001B47A8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A321B3296C0001B47A8 /* main.m */; };
 		10878A361B3296C0001B47A8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10878A351B3296C0001B47A8 /* AppDelegate.m */; };
@@ -37,8 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		101C3C001B662E50003A7431 /* FVGravityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FVGravityView.h; sourceTree = "<group>"; };
-		101C3C011B662E50003A7431 /* FVGravityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FVGravityView.m; sourceTree = "<group>"; };
 		10682C8A1B3D4D5400EA5AF8 /* AddNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddNotificationView.h; path = Views/AddNotificationView.h; sourceTree = "<group>"; };
 		10682C8B1B3D4D5400EA5AF8 /* AddNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddNotificationView.m; path = Views/AddNotificationView.m; sourceTree = "<group>"; };
 		10878A2D1B3296C0001B47A8 /* WatchDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,8 +109,6 @@
 			children = (
 				10878A371B3296C0001B47A8 /* ViewController.h */,
 				10878A381B3296C0001B47A8 /* ViewController.m */,
-				101C3C001B662E50003A7431 /* FVGravityView.h */,
-				101C3C011B662E50003A7431 /* FVGravityView.m */,
 				10A166561B3A7E1E00434072 /* Images */,
 				10878A591B32981A001B47A8 /* WatchViews */,
 				10878A631B32BFD1001B47A8 /* TimeView */,
@@ -303,7 +298,6 @@
 				10878A6C1B32BFD1001B47A8 /* TimeView.m in Sources */,
 				10878A621B32B4D1001B47A8 /* DialElement.m in Sources */,
 				10878A331B3296C0001B47A8 /* main.m in Sources */,
-				101C3C021B662E50003A7431 /* FVGravityView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,7 +8,6 @@
 
 #import "ViewController.h"
 #import "WatchView.h"
-#import "FVGravityView.h"
 
 @interface ViewController ()
 {
@@ -68,10 +67,6 @@
     //view3.backgroundColor = [UIColor lightGrayColor];
     [self.view addSubview:view3];
     
-//    gravityView = [[FVGravityView alloc] initWithFrame:CGRectMake(0, 0, 30, 30)];
-//    [gravityView setBackgroundColor:[UIColor blueColor]];
-//    [self.view addSubview:gravityView];
-//    [gravityView setIsDragable:YES];
 }
 
 - (void)didReceiveMemoryWarning {
