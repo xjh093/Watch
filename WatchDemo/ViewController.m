@@ -10,9 +10,7 @@
 #import "WatchView.h"
 
 @interface ViewController ()
-{
-    FVGravityView *gravityView;
-}
+
 @end
 
 @implementation ViewController
